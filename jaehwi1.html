@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <title>낙생위키</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:30px;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      ol{
+        border-right:none;
+      }
+      h1 {
+        border-bottom:none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">낙생위키</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="jaehwi1.html">개요</a></li>
+      <li><a href="jaehwi2.html">설명</a></li>
+      <li><a href="jaehwi3.html">여담</a></li>
+    </ol>
+    <div id="article">
+        <h2>1. 개요</h2>
+        <p>
+          낙생고등학교 | 樂生高等學敎 | Naksaeng High School
+          <br>
+          <br>
+          경기도 성남시 분당구의 일반계 고등학교이며 남녀공학, 남고를 번갈아가면서 운영하다가 1998년부터 현재까지 남녀공학으로 운영하고 있다.
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>
